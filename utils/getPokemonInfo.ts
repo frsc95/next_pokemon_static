@@ -5,7 +5,7 @@ export const getPokemonInfo = async (nameOrId: string) => {
 
     // const { name } = params as { name: string };
     // const { data } = await pokeApi.get<PokemonListResponse>('/pokemon?limit=151')
-    const { data } = await pokeApi.get<Pokemon>(`/pokemon/${nameOrId}`)
+    const { data } = await pokeApi.get<Pokemon>(`/pokemon/${ nameOrId }`);
 
     return {
         id: data.id,

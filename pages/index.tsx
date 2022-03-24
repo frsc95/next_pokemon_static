@@ -25,11 +25,11 @@ const HomePage: NextPage<Props> = ({ pokemons }) => {
       {/* <Button color="gradient"> hola món </Button> */}
 
       {/* <ul> */}
-      <Image
+      {/* <Image
         src='/img/banner.jpg'
         width={500}
         height={250}
-       />
+       /> */}
 
       <Grid.Container gap={1.21} justify='flex-start'>
         {
